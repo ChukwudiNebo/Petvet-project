@@ -1,0 +1,1112 @@
+ body{
+    padding: 0;
+    margin: 0;
+}
+
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+
+/* Extra small size */
+@media (max-width:576px){
+    .container{
+        min-width:100%;
+    }
+    .nav-color{
+        background-color:black;
+        color: white;
+    }
+    .logo-words {
+        font-weight: bold;
+        font-size: 21px;
+        color: rgb(252, 252, 252);
+        letter-spacing: -1px;
+    }
+    .tab-colors{
+        color: #fff;
+        font-weight: 600;
+    }
+    .number{
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        font-weight: bold;
+        background-color: yellowgreen;
+        font-size:14px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+}
+    .make{
+        font-size:14px;
+        background-color: rgb(255, 27, 65);
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        text-decoration: none;
+        font-weight: bol;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+}
+    .number-1{
+        margin-top: 11px;
+    }
+    .deserve{
+        font-size: 43px;
+        margin-top:140px;
+    }
+    .far{
+        max-width: 520px;
+        margin-bottom: 25px;
+    }
+    .far{
+        color: #777777;
+        padding-top: 15px;
+        font-size:18px;
+        font-weight: 500;
+    }
+    .appointment-btn{
+        background-color: yellowgreen;
+        padding:13px 78px;
+        color: white;
+        border: yellowgreen;
+        border-radius: 7px;
+        text-align: center;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+}
+#image-1{
+    background-image: url('../images/download\ \(1\).jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-2{
+    background-image: url('../images/istockphoto-1163329892-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-3{
+    background-image: url('../images/istockphoto-916855812-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-4{
+    background-image: url('../images/download.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.year-20{
+    width: min-content;
+}
+.middle{
+    width: unset;
+    background-color: white;
+    outline: white;
+    border: white;
+    box-shadow: 0px 2px 4px #dadada;
+}
+#background-images{
+    background-image: url(../images/photo-1547955326-921fec152788.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position:center top;
+}
+}
+
+/*small screen*/
+@media (min-width:576px){
+    .container{
+        min-width:unset;
+    }
+    .nav-color{
+        background-color:black;
+        color: white;
+    }
+    .top-header{
+        padding-top:0px;
+        margin-left: unset;
+    }
+    #background-images{
+        margin-top:-9px;
+        padding-top: 0px;
+
+    }
+    /* .deserve{
+        font-size: 35px;
+        padding-top: 85px;
+    }
+    .far{
+        color: #777777;
+        padding-top: 15px;
+
+    } */
+    .deserve{
+        font-size: 43px;
+        margin-top:150px;
+    }
+    .far{
+        width: 520px;
+        margin-bottom: 25px;
+    }
+    .far{
+        color: #777777;
+        padding-top: 15px;
+        font-size:18px;
+        font-weight: 500;
+    }
+    .middle{
+        width: unset;
+        background-color: white;
+        outline: white;
+        border: white;
+        box-shadow: 0px 2px 4px #dadada;
+    }
+    .card-1{
+        width:350px;
+        padding-bottom: 20px;
+    }
+    
+    /* .appointment-form{} */
+
+
+    .footer-socialmedia{
+        margin-bottom: 50px;
+    }
+    .div-card{
+        border: none;
+    }
+    .happy{
+        font-size: 35px;
+    }
+    .footer-socialmedia-1{
+        margin-bottom: 10px;    
+    }
+    .logo-words {
+        font-weight: bold;
+        font-size: 21px;
+        color: white;
+        letter-spacing: -1px;
+    }
+    .tab-colors{
+        color: #fff;
+        font-weight: 600;
+    }
+    .number{
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        font-weight: bold;
+        background-color: yellowgreen;
+        font-size:14px;
+       
+    }
+    .number-1{
+        margin-top: 11px;
+    }
+    .make{
+        font-size:14px;
+        background-color: rgb(255, 27, 65);
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        text-decoration: none;   
+    }
+    .appointment-btn{
+        background-color: yellowgreen;
+        padding:13px 78px;
+        color: white;
+        border: yellowgreen;
+        border-radius: 7px;
+        text-align: center;
+    }
+    #image-1{
+        background-image: url('../images/download\ \(1\).jpeg');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: 52px;
+        color: #f0eeee;
+        border: 10px solid white;
+        position: relative;
+        left: 21%;
+    }
+    #image-2{
+        background-image: url('../images/istockphoto-1163329892-1024x1024.jpg');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: 52px;
+        color: #f0eeee;
+        border: 10px solid white;
+        position: relative;
+        left: 21%;
+}
+    #image-3{
+        background-image: url('../images/istockphoto-916855812-1024x1024.jpg');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: 52px;
+        color: #f0eeee;
+        border: 10px solid white;
+        position: relative;
+        left: 21%;
+}
+    #image-4{
+        background-image: url('../images/download.jpeg');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: 52px;
+        color: #f0eeee;
+        border: 10px solid white;
+        position: relative;
+        left: 21%;
+    }
+    #background-images{
+        background-image: url(../images/photo-1547955326-921fec152788.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position:center top;
+}
+}
+
+/*medium screen size*/
+@media (min-width:768px){
+    .container{
+        min-width: unset;
+    }
+    .nav-color{
+        background-color:black;
+        color: white;
+        margin-top:unset;
+        
+    }
+    .deserve{
+        font-size: 43px;
+        margin-top:130px;
+    }
+    .far{
+        width: 720px;
+        margin-bottom: 25px;
+    }
+    #background-images{
+        margin-top:0px;
+        padding-top: 0px;
+    }
+    .far{
+        color: #777777;
+        padding-top: 15px;
+        font-size:18px;
+        font-weight: 500;
+    }
+    .far-1{
+        color: #777777;
+        padding-top: 15px;
+        font-size:17.5px;
+        font-weight: 500;
+    }
+    .link{
+        position: relative;
+        left: 0px;
+    }
+    .services{
+        position: relative;
+        left: 0px;
+    }
+    .card-ro{
+        margin-left: -30px;
+    }
+    .admin-date{
+        max-width:100px ;
+    }
+    .div-card{
+        width: 345px;
+        border: none;
+    }
+    .card-row{
+        margin-left: 100px;
+        width: unset;
+    }
+    .pricing{
+        width: 250px;
+    }
+    .carding-spacing{
+        margin-left:0px;
+    }
+    .welcome{
+        margin-left: 0px;
+        padding-top:40px;
+    }
+    .middle{
+        width: 230px;
+        background-color: white;
+        outline: white;
+        border: white;
+        box-shadow: 0px 2px 4px #dadada;
+    }
+    .tn{
+        width: 100%;
+    }
+    .number{
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        font-weight: bold;
+        background-color: yellowgreen;
+        font-size:14px;
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+    }
+    .number-1{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .make{
+        font-size:14px;
+        background-color: rgb(255, 27, 65);
+        padding:15px 25px;
+        color: white !important;
+        border-radius: 7px;
+        text-decoration: none;
+        width: max-content;
+    }
+    .vet-service{
+        position: relative;
+        bottom: 100px;
+        max-width: 90%;
+    }
+    .appointment-btn{
+        background-color: yellowgreen;
+        padding:13px 8px;
+        color: white;
+        border: yellowgreen;
+        border-radius: 7px;
+        text-align: center;
+    }
+    
+#image-1{
+    background-image: url('../images/download\ \(1\).jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-2{
+    background-image: url('../images/istockphoto-1163329892-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-3{
+    background-image: url('../images/istockphoto-916855812-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-4{
+    background-image: url('../images/download.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.pricing{
+    width: 320px;
+}
+}
+
+/*large screen size*/
+@media (min-width:992px){
+    .container{
+        min-width:unset;
+    }
+    .large-screen{
+        width: auto;
+    }
+    .nav-color{
+        background-color:unset;
+    }
+    .navbar{
+        background-color:white;
+        min-width: 100.5%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-header{
+        padding-top:15px;
+    }
+    .header-top{
+        margin-left:auto;
+        margin-right: 19.5px;
+    }
+    .deserve{
+        font-size: 58px;
+        width: 500px;
+    }
+    #background-images{
+        margin-top:0px;
+        padding-top: 0px;
+    }
+    .far{
+        color: #777777;
+        padding-top: 15px;
+        font-size:18px;
+        font-weight: 500;
+        width: 640px;
+    }
+    .far-1{
+        color: #777777;
+        padding-top: 15px;
+        font-size:17.5px;
+        font-weight:500;
+    }
+    /* .appointment-form{
+        
+    } */
+    .link{
+        position: relative;
+        left: 80px;
+    }
+    .services{
+        position: relative;
+        left: 50px;
+    }
+    .middle{
+        width: 270px;
+        outline: white;
+        border: white;
+        box-shadow: 0px 2px 4px #dadada;
+        
+    }
+    .vet-service{
+        position: relative;
+        bottom: 100px;
+        max-width: 90%;
+    }
+    #background-images{
+        background-image: url(../images/photo-1547955326-921fec152788.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position:center top;
+    }
+    .logo-words {
+        font-weight: bold;
+        font-size: 21px;
+        color: black;
+        letter-spacing: -1px;
+    }
+    .tab-colors{
+        color: #000;
+        font-weight: 600;
+    }
+    .number-1{
+        margin-left: -60px;
+        margin-top: 0px;
+    }
+    .make{
+        font-size:14px;
+        background-color: rgb(255, 27, 65);
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        text-decoration: none;
+        width: max-content;
+    }
+    .welcome{
+        margin-left: 57px;
+        padding-top:140px;
+    }
+    .appointment-btn{
+        background-color: yellowgreen;
+        padding:13px 8px;
+        color: white;
+        border: yellowgreen;
+        border-radius: 7px;
+        text-align: center;
+    }
+    
+#image-1{
+    background-image: url('../images/download\ \(1\).jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -47px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-2{
+    background-image: url('../images/istockphoto-1163329892-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -47px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#image-3{
+    background-image: url('../images/istockphoto-916855812-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -47px;
+}
+#image-4{
+    background-image: url('../images/download.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -47px;
+}
+.admin-date{
+    min-width:0px;
+}
+.pricing{
+    width: 210px;
+}
+.free{
+    margin-left: -8px;
+}
+a.tab-colors{
+    color: #000;
+    font-weight: 600;
+}
+}
+
+
+/*extra large screen size*/
+@media (min-width:1200px){
+        /* .container{
+            min-width: 100%;
+        } */
+        .navbar{
+            background-color:white;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: unset;
+        }
+    .top-header{
+        padding-top:15px;
+        
+    }
+    .header-top{
+        margin-left:auto;
+        margin-right: 24px;
+    }
+    .vokalia{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 110px;
+    }
+    .deserve{
+        font-size: 58px;
+        width: 500px;
+    }
+    #background-images{
+        margin-top:0px;
+        padding-top: 0px;
+    }
+    .far{
+        color: #777777;
+        padding-top: 15px;
+        font-size:18px;
+        font-weight: 500;
+        width: 620px;
+    }
+    .far-1{
+        color: rgb(146, 146, 146);
+        padding-top: 15px;
+        font-size:17.5px;
+        font-weight: 500;
+    }
+    /* .appointment-form{
+        
+    } */
+    .link{
+        position: relative;
+        left: 80px;
+    }
+    .services{
+        position: relative;
+        left: 50px;
+    }
+    .middle{
+        width: 330px;
+        outline: white;
+        border: white;
+        box-shadow: 0px 2px 4px #dadada;
+    }
+    .number{
+        padding:15px 25px !important;
+        color: white;
+        border-radius: 7px;
+        font-weight: bold;
+        background-color: yellowgreen;
+        font-size:14px;
+    }
+    .number-1{
+        margin-left: -125px;
+        margin-top: 0px;
+    }
+    .make{
+        font-size:14px;
+        background-color: rgb(255, 27, 65);
+        padding:15px 25px;
+        color: white;
+        border-radius: 7px;
+        text-decoration: none;
+        width: max-content;
+        font-weight: 600;  
+    }
+    .vet-service{
+        position: relative;
+        bottom: 70px;
+        max-width: 86%;
+    }
+    .appointment-btn{
+        background-color: yellowgreen;
+        padding:13px 78px;
+        color: white;
+        border: yellowgreen;
+        border-radius: 7px;
+        text-align: center;
+    }
+    
+#image-1{
+    background-image: url('../images/download\ \(1\).jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -24px;
+}
+#image-2{
+    background-image: url('../images/istockphoto-1163329892-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -24px;
+}
+#image-3{
+    background-image: url('../images/istockphoto-916855812-1024x1024.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -24px;
+}
+#image-4{
+    background-image: url('../images/download.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    color: #f0eeee;
+    border: 10px solid white;
+    position: relative;
+    left: -24px;
+}
+.pricing{
+    width: 255px;
+}
+.free{
+    margin-left: 0px;
+}
+}
+
+
+.service{
+    
+    font-size: 17px;
+}
+
+.img-1{
+    background-image: url("../images/download.jpeg");
+}
+
+.background-1{
+    background-image: url("../images/istockphoto-916855812-1024x1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.carousel-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-light{
+    background-color: whitesmoke;
+}
+
+.jumbtron{
+    
+    border-radius: unset;
+}
+
+
+a:link.home {
+    color: black;
+    text-decoration: none;
+}
+a.home{
+    color:black
+}
+
+a:hover.home{
+    color: rgb(255, 27, 65);
+    text-decoration: none;
+}
+
+.number:hover{
+    text-decoration: none;
+    outline:  yellowgreen;
+    border:1px solid yellowgreen;
+    background-color: #e6e6e6;
+    color:yellowgreen;
+
+}
+
+.number:link{
+    background-color: yellowgreen;
+}
+
+a{
+    color: rgb(255, 27, 65);
+}
+a:hover.home-1{
+    color:black
+}
+
+/*div:hover.middle-1{
+    background-color:rgb(255, 27, 65) ;
+}*/
+
+.founder .ceo{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index:-1 ;
+    background-color: rgb(253, 251, 251);
+    color: black;
+    padding: 110px 30px 30px 30px;
+}
+
+.founder:hover .ceo{
+    background: #91c235;
+    color: white;
+    transition-duration: 1s;
+}
+
+
+.founder .ceo-1{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index:-1 ;
+    background-color: rgb(252, 249, 249);
+    color: black;
+    padding: 110px 30px 30px 30px;
+}
+
+.founder:hover .ceo-1{
+    background: #91c235;
+    color: white;
+    transition-duration: 2s;
+}
+.twitter{
+    background-color: rgb(255, 27, 65);
+    color:white;
+}
+.founder:hover .twitter{
+    background-color:white !important;
+    color: #91c235 !important;
+    transition-duration: 1s;
+    /* font-size: 16px;
+    padding:10px 10px; */
+}
+.fa-facebook-f{
+    background-color: rgb(255, 27, 65);
+    color:white;
+}
+.founder:hover .fa-facebook-f{
+    background-color:white !important;
+    color: #91c235 !important;
+    transition-duration: 1s;
+    /* font-size: 16px;
+    padding:10px 10px; */
+}
+.title{
+    color:rgb(255, 27, 65);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.founder:hover .title{
+    color:white;
+    transition-duration: 1s;
+}
+
+.fa-google{
+    background-color: rgb(255, 27, 65);
+    color:white;
+}
+.founder:hover .fa-google{
+    background-color:white !important;
+    color: #91c235 !important;
+    transition-duration: 1s;
+    /* font-size: 16px;
+    padding:10px 10px; */
+}
+
+.fa-instagram{
+    background-color: rgb(255, 27, 65);
+    color:white;
+}
+.founder:hover .fa-instagram{
+    background-color:white !important;
+    color: #91c235 !important;
+    transition-duration: 1s;
+    /* font-size: 16px;
+    padding:10px 10px; */
+}
+
+.appointment-btn:hover{
+    background-color: white;
+        color: yellowgreen;
+        border:1px solid yellowgreen;
+        border-radius: 7px;
+        text-align: center;
+}
+.header-twitter{
+    background-color: white !important;
+    color:black !important;
+}
+.header-twitter:hover{
+    background-color: rgb(255, 27, 65) !important;
+    color:white !important;
+}
+
+.consult{
+    background-color: rgb(255, 102, 128);
+    color: white;
+    padding: 13px 12px;
+    font-weight: 500;
+    margin-left:0px;
+    letter-spacing: 0px;
+}
+
+.consult:hover{
+    color:black;
+}
+
+.img-portfolio{
+    background-color: rgb(206, 204, 204);
+    border: 2px solid rgb(206, 204, 204);
+    /* padding: 10px 10px; */
+    /* border-width: 30px; */
+}
+.middle:hover .img-portfolio{
+    background-color:white;
+    border: white;
+}
+.middle:hover{
+    background-color: rgb(255, 102, 128) !important;
+    color: white;
+}
+.portfolio-far{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(146, 146, 146);
+    padding-top:3px;
+    line-height: 1.7em;
+}
+.middle:hover .portfolio-far{
+    color: white;
+}
